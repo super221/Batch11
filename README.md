@@ -1,7 +1,7 @@
 Test Arkademy Batch 11-4 ~ Dandy Pratama
 
-Software yang dibutuhkan dalam pengerjaan test soal :
-a. Github (https://github.com)
+Software yang dibutuhkan dalam pengerjaan test soal : <br>
+a. Github (https://github.com) <br>
 b. Online GDB (https://www.onlinegdb.com)
 c. Browser Console
 d. Notepad
