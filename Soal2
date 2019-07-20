@@ -1,0 +1,37 @@
+function is_username_valid(username) {
+    // Huruf dari a sampai z
+      var lowercaseRe = /[a-z]/g;
+  
+    // check kombinasi dari huruf kecil, huruf besar dan angka dengan panjang 5-9 karakter.
+	    if(username.length == 5-9 && username.match(lowercaseRe).length == username.length) 
+  
+    // Username tidak boleh diawali dengan angka / karakter special.
+       username_invalid(‘1#tAsa$@’)
+	   return true;
+    }
+     return false;
+}
+
+function is_password_valid(password) {
+    // huruf kecil a sampai z
+	    var lowercaseRe = /[a-z]/g;
+  
+    // huruf besar A sampai Z minimal 1 karakter
+      var uppercaseRe = /[A-Z]/g;
+
+    // angka dari 0 sampai 9 minimal 1 karakter
+      var numberRe = /[0-9]/g;
+
+    // karater unik _@#$ atau % minimal 1 karakter
+      var specialRe = /[_@#$%]/g;
+
+if(password.length == 8
+     && lowercaseRe.test(password)
+     && uppercaseRe.test(password)
+     && numberRe.test(password)
+     && specialRe.test(password)) {
+     return true;
+  }
+
+  return false;
+}
