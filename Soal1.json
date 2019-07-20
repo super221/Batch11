@@ -1,29 +1,27 @@
 function getProfile() {
 return {
-      name: "Dandy Pratama",
-      age: "21",
-      address: "Jl. Raden Ajeng Kartini, Kediri",
-      hobbies: ["Reading", "Learning"] //Array
+      "name": "Dandy Pratama",
+      "age": "21",
+      "address": "Jl. Raden Ajeng Kartini, Kediri",
+      "hobbies": ["Reading", "Learning"] //Array
       },
       
-      is_married: false //Boolean,
-      list school: {
-          VocationalSchool: "SMK Negeri 1 Medan",
-          year_in: "2013",
-          year_out: "2016",
-          major: "Accounting"
+      "is_married": false //Boolean,
+      "list school": {
+          "VocationalSchool": "SMK Negeri 1 Medan",
+          "year_in": "2013",
+          "year_out": "2016",
+          "major": "Accounting"
       },
       
-      skills: {
-          skill_name: "Accounting & Office Administration"
-          level: "advanced"
+      "skills": {
+          "skill_name": "Accounting & Office Administration"
+          "level": "advanced"
       },
       
-      interest_in_coding: { "true,
+      "interest_in_coding": { "true,
       },
-
         $json_data = json_encode($profile);
         return $json_data;
   }
-
   echo biodata();
